@@ -16,8 +16,8 @@
         }
 
         function draw() {
-            //The three circle that appears on the screen.
-            fill(random(225),random(0),random(0))
+            //
+            fill(random(255),random(0),random(0))
             ellipse(320,180,mouseX,mouseY)
             ellipse(490,185,mouseX,mouseY)
             ellipse(400,300,mouseX,mouseY)
@@ -26,9 +26,10 @@
         }
         
         function mouseDragged(){
-            //The lines that appear when you drag the mouse.
             line(mouseX,mouseY,2,2)
             line(mouseX,mouseY,800,800)
+            
+            
             
             
             
